@@ -1,5 +1,5 @@
 const express = require('express');
-const fs = require('fs	');
+const fs = require('fs');
 const app = express ();
 app.all('*',(req,res)=> {
 console.log(req);
